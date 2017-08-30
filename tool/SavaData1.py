@@ -4,7 +4,7 @@ Created on 2017年8月30日
 @author: Lin Yu
 '''
 def saveFile(data):
-    save_path = 'D:\DataSave\temp.out'
+    save_path = r'D:\DataSave\temp.out' #示例里没有那个'r',运行时产生报错OSError: [Errno 22] Invalid argument
     f_obj = open(save_path, 'wb') #wb 表示打开方式
     f_obj.write(data)
     f_obj.close()
