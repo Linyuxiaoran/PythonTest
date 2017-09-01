@@ -1,6 +1,6 @@
 '''
 Created on 2017年8月31日
-
+#在图片中加入字符串 复制于http://blog.csdn.net/Richie_ll/article/details/69206210验证可行性
 @author: Lin Yu
 '''
 from PIL import Image,ImageDraw,ImageFont
