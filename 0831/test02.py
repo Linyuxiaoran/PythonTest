@@ -25,6 +25,6 @@ def convert(img):
 
 txt = convert(img)
 f = open("test02.txt","w") #保存到相对路径，请用txt文本打开，格式-字体-将字号设为2
-#f = open(r"D:\DataSave\test06.txt","w") #保存到绝对路径
+#f = open(r"D:\DataSave\test02.txt","w") #保存到绝对路径
 f.write(txt)  #储存到文件中
 f.close() 
