@@ -6,9 +6,9 @@ Created on 2017年8月31日
 #coding:utf-8
 from PIL import Image
 #要索引的字符列表
-ascii_char = list("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. ")
+ascii_char = list("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|           -_+~<>i!lI;:,\"^`'. ") #()1{}[]?
 length = len(ascii_char)
-img = Image.open("test03.png")      #读取图像文件
+img = Image.open("test05.png")      #读取图像文件
 (width,height) = img.size
 img = img.resize((int(width*0.8),int(height*0.4)))  #对图像进行一定缩小
 print(img.size)
@@ -35,7 +35,7 @@ def convert1(img):
     return txt
 
 txt = convert(img)
-f = open(r"D:\DataSave\test03.txt","w")
+f = open(r"D:\DataSave\dujing.txt","w")
 #f = open("test03.txt","w")
 f.write(txt)            #存储到文件中
 f.close()
