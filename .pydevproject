@@ -9,6 +9,7 @@
 <path>/${PROJECT_DIR_NAME}/tool</path>
 <path>/${PROJECT_DIR_NAME}/0831</path>
 <path>/${PROJECT_DIR_NAME}/0901</path>
+<path>/${PROJECT_DIR_NAME}/0911</path>
 </pydev_pathproperty>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 3.6</pydev_property>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">Default</pydev_property>
